@@ -1,6 +1,3 @@
-Aqui está um exemplo de **README.md** para o projeto:
-
----
 
 # Campanhas Publicitárias
 
