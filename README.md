@@ -56,7 +56,6 @@ A estrutura do projeto está organizada da seguinte forma:
 
 - Adicionar responsividade para dispositivos móveis.
 - Incluir animações em CSS para transições de imagens e menus.
-- Criar um formulário funcional na página de contato.
 - Melhorar o design com frameworks como **Bootstrap** ou **Tailwind CSS**.
 
 ---
