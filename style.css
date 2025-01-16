@@ -51,6 +51,10 @@ header {
     
 }
 
+a{
+    text-decoration: none;
+}
+
 .menu a:hover, .menu a.active {
     background: #1d73b9;
     color: #fff;
