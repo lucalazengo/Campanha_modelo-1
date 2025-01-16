@@ -1,12 +1,114 @@
-.fundo{
-    background-repeat:repeat;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.menu{
-    color: rgb(62, 62, 216);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.ff{
+body {
+    background: #f6f6f4 url('img/fundo.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
     
+}
+
+/* Cabeçalho */
+header {
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+    
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+.menu a {
+    color: #1d73b9;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    
+}
+
+.menu a:hover, .menu a.active {
+    background: #1d73b9;
+    color: #fff;
+    
+
+
+}
+
+/* Conteúdo Principal */
+#conteudo {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+    
+}
+
+ h1 {
+    color: #a08b6c;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+
+
+}
+
+#conteudo p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* Rodapé */
+.rodape {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+/* Responsividade */
+@media (max-width: 100%) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #conteudo {
+        padding: 15px;
+    }
+
+    #conteudo h1 {
+        font-size: 1.5rem;
+    }
 }
