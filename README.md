@@ -73,10 +73,8 @@ Aqui está uma prévia de como o projeto está estruturado:
 
 ## Créditos
 
-Projeto desenvolvido por **[Seu Nome Aqui]**, como prática em desenvolvimento web.  
+Desenvolvido por **Manuel Lucala Zengo**, como prática em desenvolvimento web.  
 
-Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato!
-
---- 
-
-Posso ajustar conforme necessário ou incluir outras informações importantes. O que acha? 😊
+Contatos:
+**sir.lucala@gmail.com**
+😊
